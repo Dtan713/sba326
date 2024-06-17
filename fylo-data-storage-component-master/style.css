@@ -1,29 +1,21 @@
 body{
-    display: flex;
     padding: 6px 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    background-image: url(./images/bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
      
     #main{
-    display: flex;
     padding: 1px 10px 37px 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
     }
      
      
     #container1{
-    display: flex;
     width: 328px;
     height: 201px;
     padding: 41px 43px;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 32px;
     border-radius: 10px 100px 10px 10px;
     background: #1D2C67;
@@ -31,12 +23,9 @@ body{
 
      
     #container2{
-    display: flex;
     width: 328px;
     height: 160px;
     padding: 31px 12px;
-    flex-direction: column;
-    align-items: center;
     gap: 12px;
     border-radius: 10px;
     background: #1D2C67;
@@ -53,11 +42,9 @@ body{
     
 
     #outer-progress{
-        display: flex;
         width: 258px;
         height: 20px;
         padding: 1px;
-        align-items: center;
         gap: 42px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -65,46 +52,36 @@ body{
     }
 
     #inner-progress{
-        display: flex;
         width: 194px;
         height: 14px;
         padding: 0px 2px;
-        justify-content: flex-end;
-        align-items: center;
         flex-shrink: 0;
         border-radius: 10px;
         background: #FFA399;
     }
 
     #middletext{
-        display: flex;
         width: 265px;
         height: 17px;
         padding: 0px 40px;
-        justify-content: center;
-        align-items: flex-start;
         gap: 182px;
         flex-shrink: 0;
         border-radius: 10px;
         background: #1D2C67;
     }
 
-    #whitebox{
-        display: flex;
-        width: 180px;
-        height: 73px;
+    #white-box{
+        
+        width: 150px;
+        height: 65px;
         padding: 15px 6px 14px 6px;
-        justify-content: center;
-        align-items: center;
         gap: 7px;
         flex-shrink: 0;
         border-radius: 10px;
         background: white;
         color: #000;
-    
-    #inner-whitebox{
         font-family: Raleway;
-        font-size: 40px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -112,7 +89,4 @@ body{
     }
     
 
-
-
-     
 
